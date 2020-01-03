@@ -1,0 +1,359 @@
+@charset "UTF-8";
+*, body {
+	margin: 0;
+	text-decoration:none;
+}
+
+.headerTop_container {
+	width: 100%;
+	height: 41px;
+	background: #f5f5f5;
+}
+
+.headerTop {
+	width: 1500px;
+	height: 40px;
+	margin: 0 auto;
+	border-bottom: 1px solid #ddd;
+	background: #f5f5f5;
+	position: relative;
+}
+
+.top_log {
+	position: absolute;
+	top: 50px;
+	left: 107px;
+	width: 272px;
+	height: 83px;
+	cursor: pointer;
+}
+
+.header_topri {
+	position: absolute;
+	right: 0px;
+	width: 474px;
+	padding-top: 8px;
+}
+
+.cart-t i {
+	background-image: url(../images/dg.png);
+	width: 14px;
+	height: 14px;
+	margin-top: 6px;
+	margin-right: 5px;
+	float: left;
+}
+
+
+.dropmn i {
+	background-image: url(../images/gr.png);
+	width: 14px;
+	height: 14px;
+	margin-top: 6px;
+	margin-right: 5px;
+	float: left;
+}
+
+.cred {
+	color: red !important;
+	cursor: pointer;
+}
+
+.cred:hover {
+	text-decoration: none;
+	color: #248dcc !important;
+}
+
+ul, ol, li, dl, dt, dd {
+	list-style: none;
+}
+
+.header_topri li {
+	display: inline;
+	float: left;
+	padding: 0 15px;
+	height: 26px;
+	position: relative;
+	border: 1px solid #F5F5F5;
+	border-bottom: none;
+}
+
+.header_topri li a {
+	text-decoration: none;
+	color: #444;
+}
+
+.header_topri li a:hover {
+	text-decoration: none;
+	color: #248dcc;
+}
+
+.headerTop li, .headerTop p {
+	line-height: 25px;
+	color: #444;
+}
+
+.topgz {
+	position: relative;
+	padding-right: 14px;
+	cursor: pointer;
+	display: block;
+}
+
+.fl {
+	float: left;
+}
+
+.lo_no {
+	font-size: 17px;
+}
+/* 鎼滅储妗� */
+.search_containers {
+	width: 100%;
+	height: 211px;
+}
+
+.search_container {
+	position: relative;
+	margin: 0 auto;
+	width: 1500px;
+	height: 121px;
+	border-bottom: 2px solid #617899;
+}
+
+.search_left {
+	width: 200px;
+	height: 83px;
+	position: absolute;
+	top: 12px;
+	left: 27px;
+	/* outline:1px solid red; */
+}
+
+.top_log {
+	display: block;
+	margin: -37px auto;
+	width: 272px;
+	height: 83px;
+	cursor: pointer;
+}
+
+.cartde{
+	width:100px;
+	height:30px;
+	margin:-67px 162px;
+	color:#333;
+	font-weight:bold;
+	font-size:15px;
+}
+.carttable{
+	width:1200px;
+	height:auto;
+	margin:81px auto;
+	margin-bottom:150px !important;
+	border-collapse:collapse
+}
+
+.carttable_tr{
+	width:1200px;
+	height:47px;
+	background:#fcfcfc;
+}
+.td1{
+	width:500px;
+}
+.td1 img{
+	display:inline;
+	width:75px;
+	height:75px;
+	border:1px solid #ccc;
+	margin-top:2px;
+	margin-left:10px;
+}
+.td1 span{
+	display:block;
+	margin-top:28px;
+	width:400px;
+	height:52px;
+	float:right;
+	color:#333;
+	font-size:13px;
+}
+.td3{
+	width:155px;
+	text-align:center;
+}
+.clear{
+	margin-left:55px !important;
+	margin-top:42px !important;
+	color:#333;
+	width:109px;
+	height:0px;
+	float:left;
+	font-size:20px;
+}
+.deleteA{
+	color:#333;
+}
+.deleteA:hover{
+	color:red;
+}
+.zongjia{
+	margin-left:517px !important;
+	margin-top:48px !important;
+	color:#333;
+	width:185px;
+	height:0px;
+	float:left;
+	font-size:20px;
+}
+.zongjia a{
+	color:red;
+}
+.shopcar {
+	position: relative;
+	margin-left: 942px;
+	margin-top: 25px;
+	width: 190px;
+	height: 56px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 20px;
+}
+.singlepricce{
+	width:162px;
+}
+.singleallpricce{
+	width:200px;
+}
+.epet_sensor_add_cart {
+	text-decoration: none;
+	display: inline-block;
+	width: 190px;
+	height: 56px;
+	line-height: 56px;
+	border-radius: 3px;
+	background: #8755ea;
+	cursor: pointer;
+	color: white;
+}
+.order_view_dv{
+	width:390px;
+	height: 282px;
+	margin-top: 85px;
+	margin-left: 159px;
+}
+
+.order_view_dv p{
+	line-height:40px;
+	font-size:17px
+}
+
+
+.shop_car_cuccess p {
+	margin-top: 43px;
+	font-size: 19px;
+	text-align: center;
+}
+
+.cartBtn {
+	width: 336px;
+	height: 80px;
+	margin-top: 36px;
+	margin-left: 157px;
+}
+.cartBtn1 {
+	width: 336px;
+	height: 80px;
+	margin-top: 36px;
+	margin-left:40%;
+}
+
+.continueBuy {
+	border: 1px solid #d2d2d2;
+	border-radius: 5px;
+	color: #999;
+	text-decoration: none;
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.buyNow {
+	border-radius: 5px;
+	background: #f03e3e;
+	margin-left: 16px;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	cursor:pointer;
+}
+.continueBuy1 {
+	border: 1px solid #d2d2d2;
+	border-radius: 5px;
+	color: #999;
+	text-decoration: none;
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.buyNow1 {
+	border-radius: 5px;
+	background: #f03e3e;
+	margin-left: 16px;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	cursor:pointer;
+}
+.shop_car_cuccess span {
+	display: block;
+	margin-left: 136px;
+	margin-top: 10px;
+}
+
+.amount_Price {
+	display: inline-block !important;
+	color: red !important;
+}
+
+.shop_car_cuccess {
+	position: absolute;
+	left: 50%;
+	top: 31%;
+	background: #fff;
+	margin-left: -300px; /*左移div宽度的一半*/
+	margin-top: 40px; /*上移div高度的一半*/
+	width: 550px;
+	height: 308px;
+	z-index: 100;
+	outline: 1px solid #ddd;
+	display: none;
+}
+
+.shop_car_cuccess img {
+	position: absolute;
+	display: block;
+	width: 25px;
+	height: 25px%;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+}

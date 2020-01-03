@@ -1,0 +1,636 @@
+@charset "UTF-8";
+
+*, body {
+	margin: 0;
+}
+
+.headerTop_container {
+	width: 100%;
+	height: 41px;
+	background: #f5f5f5;
+}
+
+.headerTop {
+	width: 1500px;
+	height: 40px;
+	margin: 0 auto;
+	border-bottom: 1px solid #ddd;
+	background: #f5f5f5;
+	position: relative;
+}
+
+.top_log {
+	position: absolute;
+	top: 50px;
+	left: 107px;
+	width: 272px;
+	height: 83px;
+	cursor: pointer;
+}
+
+.header_topri {
+	position: absolute;
+	right: 0px;
+	width: 474px;
+	padding-top: 8px;
+}
+
+.cart-t i {
+	background-image: url(../images/dg.png);
+	width: 14px;
+	height: 14px;
+	margin-top: 6px;
+	margin-right: 5px;
+	float: left;
+}
+
+.dropmn i {
+	background-image: url(../images/gr.png);
+	width: 14px;
+	height: 14px;
+	margin-top: 6px;
+	margin-right: 5px;
+	float: left;
+}
+
+.cred {
+	color: red !important;
+	cursor: pointer;
+}
+
+.cred:hover {
+	text-decoration: none;
+	color: #248dcc !important;
+}
+
+ul, ol, li, dl, dt, dd {
+	list-style: none;
+}
+
+.header_topri li {
+	display: inline;
+	float: left;
+	padding: 0 15px;
+	height: 26px;
+	position: relative;
+	border: 1px solid #F5F5F5;
+	border-bottom: none;
+}
+
+.header_topri li a {
+	text-decoration: none;
+	color: #444;
+}
+
+.header_topri li a:hover {
+	text-decoration: none;
+	color: #248dcc;
+}
+
+.headerTop li, .headerTop p {
+	line-height: 25px;
+	color: #444;
+}
+
+.topgz {
+	position: relative;
+	padding-right: 14px;
+	cursor: pointer;
+	display: block;
+}
+
+.fl {
+	float: left;
+}
+
+/* 商品详情 */
+.deltail_content {
+	position: relative;
+	margin: 0 auto;
+	margin-top: 57px !important;
+	width: 1200px;
+	height: 500px;
+	outline: 1px solid #ddd;
+}
+/*加入购物车提示框*/
+.shop_car_cuccess p {
+	margin-top: 43px;
+	font-size: 19px;
+	text-align: center;
+}
+
+.cartBtn {
+	width: 336px;
+	height: 80px;
+	margin-top: 54px;
+	margin-left: 185px;
+}
+
+.continueBuy {
+	border: 1px solid #d2d2d2;
+	border-radius: 5px;
+	color: #999;
+	text-decoration: none;
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.buyNow {
+	border-radius: 5px;
+	background: #f03e3e;
+	margin-left: 16px;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	cursor:pointer;
+}
+
+.shop_car_cuccess span {
+	display: block;
+	margin-left: 175px;
+	margin-top: 10px;
+}
+
+.amount_Price {
+	display: inline-block !important;
+	color: red !important;
+}
+
+.shop_car_cuccess {
+	position: absolute;
+	left: 50%;
+	top: 31%;
+	background: #fff;
+	margin-left: -300px; /*左移div宽度的一半*/
+	margin-top: 40px; /*上移div高度的一半*/
+	width: 600px;
+	height: 308px;
+	z-index: 100;
+	outline: 1px solid #ddd;
+	display: none;
+}
+
+.shop_car_cuccess img {
+	position: absolute;
+	display: block;
+	width: 25px;
+	height: 25px%;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+}
+
+.detail_title {
+	position: relative;
+	margin: 0 auto;
+	padding-top: 41px !important;
+	width: 1100px;
+	height: 90px;
+	border-bottom: 1px dashed #ddd;
+}
+
+.c333 {
+	color: #333;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.ft18 {
+	font-size: 18px;
+}
+
+.c999 {
+	color: #999;
+}
+
+.ft14 {
+	font-size: 14px;
+}
+
+.detail_title p {
+	margin-top: 21px;
+}
+/*左侧div*/
+.imgandpricecontainer {
+	margin: 0 auto;
+	width: 1100px;
+	height: 500px;
+}
+
+.detail_left {
+	position: relative;
+	width: 550px;
+	height: 500px;
+	border-right: 1px solid #ddd;
+	float: left;
+}
+
+.detail_left img {
+	cursor: pointer;
+	margin-left: 52px;
+	margin-top: 85px;
+}
+
+.detail_right {
+	position: relative;
+	width: 549px;
+	height: 500px;
+	float: right;
+}
+
+.sale-prices {
+	position: relative;
+	width: 500px;
+	height: 260px;
+	padding: 10px 0 0;
+}
+
+.prefix {
+	display: block;
+	float: left;
+	color: #e3393c;
+	font-size: 22px;
+	margin-top: 64px;
+	margin-left: 28px;
+}
+
+.pric {
+	display: block;
+	float: left;
+	font-weight: bold;
+	color: #e3393c;
+	font-size: 34px;
+	margin-top: 53px;
+	margin-left: 3px;
+}
+
+.detail_amount {
+	position: absolute;
+	bottom: 0px;
+	left: 30px;
+	width: 317px;
+	height: 146px;
+}
+
+.jinghanliang {
+	font-size: 14px;
+	color: lightblack;
+}
+
+.kucun {
+	display: block;
+	margin-top: 25px;
+	font-size: 14px;
+	color: lightblack;
+}
+
+.amount_container {
+	display: block;
+	position: relative;
+	margin-left: 10px;
+	margin-top: 35px;
+	float: left;
+	width: 91px;
+	height: 30px;
+	outline: 1px solid #ddd;
+}
+
+.shuliang {
+	display: block;
+	float: left;
+	margin-top: 42px;
+	font-size: 14px;
+	color: lightblack;
+}
+
+.jishu {
+	display: block;
+	width: 25px;
+	height: 29px;
+	font-size: 23px;
+	float: left;
+	cursor: pointer;
+	outline: 1px solid #ddd;
+}
+
+.amount_in {
+	width: 40px;
+	height: 29px;
+	float: left;
+	text-align: center;
+	border-bottom: 0px;
+	border-top: 0px;
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+}
+/*加入购物车*/
+.shopcar {
+	position: relative;
+	margin-left: 29px;
+	margin-top: 40px;
+	width: 190px;
+	height: 56px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.epet_sensor_add_cart {
+	text-decoration: none;
+	display: inline-block;
+	width: 190px;
+	height: 56px;
+	line-height: 56px;
+	border-radius: 3px;
+	background: #f03131;
+	cursor: pointer;
+	color: white;
+}
+/*评价*/
+.appraise_container {
+	position: relative;
+	margin: 143px 189px;
+	width: 1170px;
+	height: 400px;
+	outline: 1px solid #ddd;
+}
+
+.appraise_container_descrip {
+	display: block;
+	text-align: center;
+	width: 200px;
+	height: 40px;
+	margin-left: -30px;
+	padding-top: 14px;
+}
+
+.appraisal {
+	width: 1155px;
+	height: 227px;
+	outline: 1px solid #ddd;
+}
+
+.appraisal_left {
+	position: relative; width : 228px;
+	height: 190px;
+	float: left;
+	background-color: #FAFBFC;
+	width: 228px;
+}
+
+.appraisal_right {
+	width: 800px;
+	height: 216px;
+	float: left;
+}
+
+.right_content span {
+	display: inline-block;
+	width: 700px;
+	height: 100px;
+	color: #333;
+	margin-top: 51px;
+	margin-left: 55px;
+}
+
+.right_content {
+	width: 800px;
+	height: 151px;
+}
+
+.timeandfloor {
+	width: 232px;
+	height: 42px;
+	color: #333;
+	font-size: 15px;
+	margin-top: 33px;
+	margin-left: 694px;
+}
+
+.appraisal_left div {
+	margin-top: 45px;
+	margin-left: 63px;
+	width: 85px;
+	height: 85px;
+	border: 1px solid #ddd;
+}
+
+.appraisal_left div img {
+	display: block;
+	margin: 2px auto;
+	width: 80px;
+	height: 80px;
+}
+
+.appraisal_left span {
+	display: block;
+	margin-top: 22px;
+	margin-left: 93px;
+	font-size: 15px;
+	color: #333
+}
+
+/*page*/
+.page {
+	position: relative;
+	margin-top: 20px; left : 581px; width : 582px;
+	height: 38px;
+	width: 582px;
+	left: 581px;
+}
+
+.page_right {
+	position: absolute;
+	width: 345px;
+	height: 38px;
+	right: 2px;
+	bottom: 0px;
+}
+
+.page_right a {
+	text-decoration: none;
+}
+
+.common_button {
+	display: block;
+	margin-left: 11px;
+	width: 66px;
+	height: 29px;
+	float: left;
+	color: #444444;
+	text-align: center;
+	line-height: 29px;
+	background-color: #ddd;
+}
+
+.common_button:hover {
+	background-color: lightgray;
+	outline: 2px solid gray;
+}
+
+.page_left {
+
+    position: absolute;
+    top: 5px;
+    left: 2px;
+    width: 236px;
+    height: 28px;
+
+}
+
+.page_left span {
+	color: #444444;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	margin-right: 15px;
+	float: left;
+}
+
+.XYTipsWindow .boxLoading {
+	position: absolute;
+	display: block;
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: -45px;
+	margin-top: -15px;
+	left: 50%;
+	top: 50%;
+	color: #f00;
+}
+
+.XYTipsWindow .boxLoading {
+	width: 28px;
+	margin-left: -14px;
+	background: url("../images/loading.gif") no-repeat;
+	text-indent: -999em;
+	text-align: center;
+}
+
+.XYTipsWindow .boxTitle, .XYTipsWindow .boxTitle span, .XYTipsWindow .boxTitle span.hover,
+	.XYTipsWindow .loadinglayer, .XYTipsWindow .tipslayer, .XYTipsWindow .arrowLeft,
+	.XYTipsWindow .colseBtn, .XYTipsWindow .boxError em, .XYTipsWindow .dialogBtn,
+	.XYTipsWindow .dialogBtn.hover {
+	background-image: url("../images/ico.png");
+	background-repeat: no-repeat;
+}
+
+.XYTipsWindow .boxTitle {
+	position: relative;
+	border: 1px solid #A6C9E1;
+	border-bottom: none;
+	background-position: 0 0;
+	background-repeat: repeat-x;
+	height: 30px;
+	line-height: 30px;
+}
+
+.XYTipsWindow .boxTitle h3 {
+	float: left;
+	font-weight: normal;
+	color: #666;
+	font-size: 14px;
+	margin: 0;
+	text-indent: 10px;
+}
+
+.XYTipsWindow .boxTitle span {
+	position: absolute;
+	width: 10px;
+	background-position: -80px -40px;
+	text-indent: -10em;
+	right: 10px;
+	top: 10px;
+	height: 16px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.XYTipsWindow .boxTitle span.hover {
+	background-position: -90px -40px;
+}
+
+.XYTipsWindow .loadinglayer {
+	line-height: 40px;
+	background-position: 0 -100px !important;
+}
+
+.XYTipsWindow .tipslayer {
+	line-height: 20px;
+	text-align: left;
+}
+
+.XYTipsWindow .arrowLeft {
+	position: absolute;
+	width: 8px;
+	height: 16px;
+	background-position: -20px -170px;
+	text-indent: -9999em;
+	z-index: 20591;
+	overflow: hidden;
+}
+
+.XYTipsWindow .colseBtn {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 8px;
+	height: 8px;
+	background-position: -55px -170px;
+	text-indent: -9999em;
+	cursor: pointer;
+	z-index: 20591;
+	overflow: hidden;
+}
+
+.XYTipsWindow .boxError {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -60px;
+	margin-top: -15px;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	color: #f00;
+}
+
+.XYTipsWindow .boxError em {
+	float: left;
+	width: 30px;
+	height: 30px;
+	background-position: -35px -140px;
+}
+
+.XYTipsWindow .dialogBtn {
+	margin: 5px 5px 0 0;
+	width: 80px;
+	height: 35px;
+	background-position: 0 -30px;
+	border: none;
+	color: #333;
+}
+
+.XYTipsWindow .dialogBtn.hover {
+	background-position: 0 -65px;
+}
+
+.XYTipsWindow.shadow {
+	box-shadow: 2px 2px 5px #C0BBB5;
+	-moz-box-shadow: 2px 2px 5px #C0BBB5;
+	-webkit-box-shadow: 2px 2px 5px #C0BBB5;
+}
+
+
+

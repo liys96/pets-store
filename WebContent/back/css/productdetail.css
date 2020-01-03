@@ -1,0 +1,133 @@
+@charset "UTF-8";
+*{
+	margin:0;
+	text-decoration:none;
+	list-style:none;
+}
+
+/*page*/
+
+.page{
+	position:absolute;
+	right:178px;
+	bottom:0px;
+	width: 582px;
+	height: 38px;
+}
+.page_right{
+	position:absolute;
+	width: 345px;
+	height: 38px;
+	right:62px;
+	bottom:240px;
+}
+.common_button{
+	display:block;
+	margin-left:11px;
+	width:66px;
+	height:29px;
+	float:left;
+	color:#444444;
+	text-align:center;
+	line-height:29px;
+	background-color:#ddd;
+}
+.common_button:hover{
+	background-color:lightgray;
+	outline:2px solid gray;
+}
+.page_left{
+	position:absolute;
+	bottom:240px;
+	right:400px;
+	width:266px;
+	height:28px;
+}
+.page_left span{
+	color:#444444;
+	font-size:14px;
+	font-family:"微软雅黑";
+	margin-right: 15px;
+	float: left;
+}
+/* 排序条件 */
+.condition_a{
+	display:block;
+	width:66px;
+	height:60px;
+	color:gray;
+	text-align:center;
+	line-height:60px;
+	font-size:13px;
+	float:left;
+	border-right:2px solid #ddd;
+	border-top:2px solid #ddd;
+	border-bottom:2px solid #ddd;
+}
+.condi_a1{
+	border-left:2px solid #ddd;
+}
+.condi_a2{
+	background: url(../images/paixu-ico.png) no-repeat 38px 7px;
+}
+.condi_a2:hover{
+	background: url(../images/paixu-ico.png) no-repeat -26px 7px;
+}
+.condition_a:hover{
+	color:white;
+	background-color:#617899;
+	border-right:2px solid #617899;
+}
+.contai_imgandtitle{
+	position:relative;
+	margin:10px auto;
+	width:170px;
+	height:170px;
+	color:gray;
+}
+.detail_sailprice a{
+	color:#4d4d4d;
+	font-size:14px;
+}
+.detail_sailprice a:hover{
+	color:#248dcc;
+}
+.contai_imgandtitle img{
+	width:170px;
+	height:170px;
+	
+}
+.detail_sailprice{
+	position:relative;
+	margin:0px auto;
+	width:200px;
+	height:115px;
+}
+.price{
+	display:block;
+	margin:10px auto;
+	margin-top:10px !important;
+	color:#FF6600;
+	font-size:20px;
+	text-align:center;
+}
+.shouchu{
+	display:block;
+	margin:14px auto;
+	margin-top:3px !important ;
+	text-align:center;
+	color:gray;
+	font-size:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
